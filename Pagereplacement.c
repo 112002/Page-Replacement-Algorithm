@@ -1,8 +1,10 @@
 #include<stdio.h>
+int n,nf;
 int in[100];
 int p[50];
 int hit=0;
 int i,j,k;
+int pgfaultcnt=0;
 
  
 void getData()
